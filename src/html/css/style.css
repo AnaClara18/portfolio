@@ -691,7 +691,7 @@
 }
 
 .historia_estagio p,
-.historia_estagio h1 {
+.historia_estagio h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -717,6 +717,7 @@
 .slide{
   width: 25%;
   position: relative;
+  transition: 3s;
 }
 
 .slide img{
@@ -798,3 +799,4 @@
 #radio1:checked ~.navigation-auto .auto-btn4{
   background-color: #fff;
 }
+
