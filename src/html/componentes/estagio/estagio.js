@@ -39,7 +39,7 @@ export class Estagio extends HTMLElement {
     
             setInterval(() => {
              this.nextImage();
-            }, 9000);
+            }, 8000);
         }
         console.log("O código vem ate aqui 1!");
     }
