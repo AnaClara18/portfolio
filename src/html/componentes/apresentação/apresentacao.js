@@ -17,7 +17,8 @@ export class Apresentacao extends HTMLElement{
 
                 this.appendChild(template.content.cloneNode(true));
                 
-                this.dispatchEvent(new CustomEvent("carregou"));                
+                this.dispatchEvent(new CustomEvent("carregou")); 
+                
             });
         });
 
