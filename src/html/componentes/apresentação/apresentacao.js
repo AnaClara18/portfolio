@@ -19,6 +19,7 @@ export class Apresentacao extends HTMLElement{
                 
                 this.dispatchEvent(new CustomEvent("carregou")); 
                 
+            
             });
         });
 
