@@ -1292,3 +1292,16 @@
   border-left: 4px solid #4CAF50;
   font-size: 15px;
 }
+
+.imagem-apresentacao {
+  text-align: center;
+}
+
+.projetos h2 {
+  text-align: center
+}
+
+.texto-projeto p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
