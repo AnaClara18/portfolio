@@ -1096,20 +1096,25 @@
   height: 100%;
   z-index: 1;
 }
+
 .banner {
   position: relative;
   z-index: 2;
 }
+
 .banner-texto h1 {
   font-size: 2.5rem;
 }
+
 .banner-texto p {
   font-size: 1.25rem;
 }
+
 @media (max-width: 768px) {
   .banner-texto h1 {
     font-size: 2rem;
   }
+
   .banner-texto p {
     font-size: 1rem;
   }
@@ -1229,37 +1234,48 @@
 }
 
 .texto-estagio {
-  font-size: 1.5em; /* Tamanho da fonte */
-  font-family: Arial, sans-serif; /* Letra */
-  text-align: justify; 
+  font-size: 1.5em;
+  /* Tamanho da fonte */
+  font-family: Arial, sans-serif;
+  /* Letra */
+  text-align: justify;
   margin: 20px;
-  line-height: 1.6; /* Altura da linha */
+  line-height: 1.6;
+  /* Altura da linha */
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .texto-estagio {
-    font-size: 1.2em; /* Ajusta o tamanho da fonte para telas menores */
+    font-size: 1.2em;
+    /* Ajusta o tamanho da fonte para telas menores */
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .texto-estagio {
-    font-size: 1em; /* Ajusta o tamanho da fonte para telas muito pequenas */
+    font-size: 1em;
+    /* Ajusta o tamanho da fonte para telas muito pequenas */
   }
 }
 
 .container-xl {
-  max-width: 1200px; /* Largura máxima para o contêiner */
-  margin: 0 auto; /* Centraliza o contêiner */
-  padding: 0 15px; /* Espaçamento interno */
+  max-width: 1200px;
+  /* Largura máxima para o contêiner */
+  margin: 0 auto;
+  /* Centraliza o contêiner */
+  padding: 0 15px;
+  /* Espaçamento interno */
 }
 
 .texto-apresentacao {
-  font-size: 1.5em; /* Tamanho da fonte */
-  font-family: Arial, sans-serif; /* Letra */
-  text-align: justify; 
+  font-size: 1.5em;
+  /* Tamanho da fonte */
+  font-family: Arial, sans-serif;
+  /* Letra */
+  text-align: justify;
   /*margin: 20px;*/
-  line-height: 1.6; /* Altura da linha */
+  line-height: 1.6;
+  /* Altura da linha */
   color: #333;
   max-width: 1200px;
   min-height: 800px;
@@ -1304,4 +1320,49 @@
 .texto-projeto p {
   margin-bottom: 15px;
   text-align: justify;
+  font-size: 1.3em;
+  font-family: Arial, sans-serif;
+}
+
+.titulo-projeto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.titulo-projeto .icone i {
+  width: 25px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.titulo-projeto p {
+  width: 600px;
+  background-color: #fafafa;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.container-secao {
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.secao {
+  margin-bottom: 10px;
 }

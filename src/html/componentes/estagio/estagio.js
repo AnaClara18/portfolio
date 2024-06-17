@@ -56,7 +56,7 @@ export class Estagio extends HTMLElement {
         if (radio) {
             radio.checked = true;
         }
-        onsole.log("O código vem ate aqui 4!");
+        console.log("O código vem ate aqui 4!");
 
     }
 
